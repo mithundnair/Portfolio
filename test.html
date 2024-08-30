@@ -11,14 +11,6 @@
 
     <script src="script.js"></script>
 
-    <style>
-
-      .social-menu ul li a:hover{
-        transform: translate(0,-10%);
-      }
-
-    </style>
-
 </head>
 <body class="bg-black">
 
@@ -55,6 +47,10 @@
           <div class="col-md-8 mx-auto text-center mt-3">
             <h2 class="me text-center text-white font-bold text-2xl animate__animated animate__lightSpeedInRight" id="profession">Hey, It's Me Mithun</h2>
             <p class="about text-center mt-2 text-white text-2xl"><strong>I am a <span class="text-yellow-500 ms-2 text-2xl">Full Stack Developer</span></strong></p>
+            <p class="text-center mt-8 font-bold text-white text-lg">
+              A guy passionate about crafting web applications and solving challenges. Skilled in <span class="front text-yellow-500">FRONT-END</span> Technologies. Check out my work and feel free to reach out!
+            </p>
+
 
             <!-- Social Icons directly under the line -->
             <div class="social flex justify-center space-x-12 list-none mt-3 mb-3 p-3">
@@ -105,39 +101,39 @@
     <!-- =================== -->
 
     <section id="skills">
-      <h3 class="know text-3xl text-yellow-500 text-center font-bold mt-3">SKILLS</h3>
-              <div class="flex justify-center">
+      <h3 class="know mt-4 text-3xl text-center text-yellow-500 font-bold">SKILLS</h3>
+      <div class="flex justify-center">
                 <div class="grid grid-cols-1 md:grid-cols-4 gap-16">
                     <div class="card mb-6 mt-4 w-20 h-20 bg-black p-1">
-                        <i class="fa-brands fa-html5 display-1 text-center" style="color: #e34c26;"></i>
+                        <i class="fa-brands fa-html5 display-1 text-center mt-16" style="color: #e34c26;"></i>
                         <p class="mt-2 text-center" style="color: #E34C26;">HTML</p>
                       </div>
                     <div class="card  mb-6 mt-4 w-20 h-20 bg-black p-1">
-                        <i class="fa-brands fa-css3 display-1 text-center" style="color: #264de4;"></i>
+                        <i class="fa-brands fa-css3 display-1 text-center mt-16" style="color: #264de4;"></i>
                         <p class="mt-2 text-center" style="color: blue;">CSS</p>
                       </div>
                     <div class="card  mb-6 mt-4 w-20 h-20 bg-black p-1">
-                        <i class="fa-brands fa-js display-1 text-center" style="color: #f0db4f;"></i>
+                        <i class="fa-brands fa-js display-1 text-center mt-16" style="color: #f0db4f;"></i>
                         <p class="mt-2 text-center" style="color: yellow;">JavaScript</p>
                       </div>
                     <div class="card  mb-6 mt-4 w-20 h-20 bg-black p-1">
-                        <i class="fa-brands fa-bootstrap display-1 text-center" style="color: #563d7c;"></i>
+                        <i class="fa-brands fa-bootstrap display-1 text-center mt-16" style="color: #563d7c;"></i>
                         <p class="mt-2 text-center" style="color: #563d7c;">Bootstrap</p>
                       </div>
                     <div class="card  mb-12 mt-4 w-20 h-20 bg-black p-1">
-                        <i class="fa-brands fa-python display-1 text-center" style="color: #3776ab;"></i>
+                        <i class="fa-brands fa-python display-1 text-center mt-10" style="color: #3776ab;"></i>
                         <p class="mt-2 text-center" style="color: #3776AB;">Python</p>
                       </div>
                     <div class="card  mb-12 mt-4 w-20 h-20 bg-black p-1">
-                        <img src="./images/django.svg" class="img-fluid mt-1" width="50px" alt="Django Icon" style="filter: invert(20%) sepia(90%) saturate(1000%) hue-rotate(90deg) brightness(60%) contrast(120%);">                  ">
+                        <img src="./images/django.svg" class="img-fluid mt-16" width="50px" alt="Django Icon" style="filter: invert(20%) sepia(90%) saturate(1000%) hue-rotate(90deg) brightness(60%) contrast(120%);">
                         <p class="text-center" style="color: green;">Django</p>
                       </div>
                     <div class="card  mb-12 mt-4 w-20 h-20 bg-black p-1">
-                        <img src="./images/tailwind.svg" class="img-fluid mt-4 text-center" width="50px" alt="Tailwind CSS Icon">
+                        <img src="./images/tailwind.svg" class="img-fluid mt-16 text-center" width="50px" alt="Tailwind CSS Icon">
                         <p class="mt-4 text-center" style="color: #06B6D4;">Tailwind</p>
                       </div>
                     <div class="card  mb-12 mt-4 w-20 h-20 bg-black p-1">
-                        <i class="fab fa-react display-1 text-center" style="color: #61dafb;"></i>
+                        <i class="fab fa-react display-1 text-center mt-10" style="color: #61dafb;"></i>
                         <p class="skill-label text-center" style="color: #61dafb;">React</p>
                       </div>
                 </div>
@@ -151,7 +147,7 @@
     <!-- █▀▀ █▀▄ █▄█ █▄█ ██▄ █▄▄ ░█░ ▄█ -->
     <!-- ============================== -->
 
-    <section class="mt-6 p-4" id="projects">
+    <section class="mt-16 p-4" id="projects">
 
       <h3 class="mb-4 know text-3xl text-yellow-500 text-center font-bold">PROJECTS</h3>
 
@@ -270,32 +266,54 @@
 
       <!-- /* Contact Form*/  -->
 
-      <div class="flex flex-col items-center justify-center dark mt-8 mb-16">
-        <div class="w-full max-w-md bg-gray-800 rounded-lg shadow-md p-6">
-          <h2 class="text-2xl font-bold text-yellow-200 mb-4">Contact Me</h2>
+      <div class="flex flex-col items-center justify-center dark mt-16 mb-16">
+        <!-- Increased max-width to lg (512px) -->
+        <div class="w-full max-w-3xl bg-gray-800 rounded-lg shadow-md p-6">
+          <h2 class="text-2xl text-center font-bold text-yellow-200 mb-4">Contact Me</h2>
       
           <form class="flex flex-wrap">
-            <input type="text" class="bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150 w-full md:w-[48%] mr-[2%]" placeholder="Full Name"/>
-
-            <input type="email" class="bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150 w-full md:w-[48%] ml-[2%]" placeholder="Email"/>
-
-            <input type="number" class="bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150 w-full md:w-[48%] mr-[2%]" placeholder="Phone Number"/>
-
-            <input type="text" class="bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150 w-full md:w-[48%] ml-[2%]" placeholder="Place"/>
-
-            <textarea name="message" class="bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-auto md:mb-auto md:w-full md:h-auto md:min-h-[100px] md:max-h-[100px] md:flex-grow md:flex-shrink md:flex-auto focus:bg-gray-md:focus:outline-none:focus:ring-blue-md:focus:border-transparent transition ease-in-out duration-fastest" placeholder="Message"></textarea>
-      
-            <!-- Button */  -->
-
-            <button class="flex items-center bg-blue-500 text-white gap-1 ms-2 mt-4 px-4 py-2 cursor-pointer text-gray-800 font-semibold tracking-widest rounded-md hover:bg-blue-400 duration-300 hover:gap-2 hover:translate-x-3">
-                Send
-              <svg class="w-5 h-5" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" stroke-linejoin="round" stroke-linecap="round"></path></svg>
+            <!-- Full Name Input with Floating Label -->
+            <div class="relative w-full md:w-[48%] mr-[2%] mb-4">
+              <input type="text" id="full-name" class="bg-gray-700 text-gray-200 border-0 rounded-md p-2 w-full focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150 peer" placeholder=" " />
+              <label for="full-name" class="absolute font-bold text-white duration-300 transform -translate-y-6 scale-75 top-2 z-10 origin-[0] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-2 peer-focus:scale-75 peer-focus:-translate-y-6 left-2">Full Name</label>
+            </div>
+          
+            <!-- Email Input with Floating Label -->
+            <div class="relative w-full md:w-[48%] ml-[2%] mb-4">
+              <input type="email" id="email" class="bg-gray-700 text-gray-200 border-0 rounded-md p-2 w-full focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150 peer" placeholder=" " />
+              <label for="email" class="absolute font-bold text-white duration-300 transform -translate-y-6 scale-75 top-2 z-10 origin-[0] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-2 peer-focus:scale-75 peer-focus:-translate-y-6 left-2">Email</label>
+            </div>
+          
+            <!-- Phone Number Input with Floating Label -->
+            <div class="relative w-full md:w-[48%] mr-[2%] mb-4">
+              <input type="number" id="phone-number" class="bg-gray-700 text-gray-200 border-0 rounded-md p-2 w-full focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150 peer" placeholder=" " />
+              <label for="phone-number" class="absolute font-bold text-white duration-300 transform -translate-y-6 scale-75 top-2 z-10 origin-[0] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-2 peer-focus:scale-75 peer-focus:-translate-y-6 left-2">Phone Number</label>
+            </div>
+          
+            <!-- Place Input with Floating Label -->
+            <div class="relative w-full md:w-[48%] ml-[2%] mb-4">
+              <input type="text" id="place" class="bg-gray-700 text-gray-200 border-0 rounded-md p-2 w-full focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150 peer" placeholder=" " />
+              <label for="place" class="absolute font-bold text-white duration-300 transform -translate-y-6 scale-75 top-2 z-10 origin-[0] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-2 peer-focus:scale-75 peer-focus:-translate-y-6 left-2">Place</label>
+            </div>
+          
+            <!-- Message Textarea with Floating Label -->
+            <div class="relative w-full mb-4">
+              <textarea id="message" class="bg-gray-700 text-gray-200 border-0 rounded-md p-2 w-full focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150 min-h-[100px] max-h-[200px] peer" placeholder=" "></textarea>
+              <label for="message" class="absolute font-bold text-white duration-300 transform -translate-y-6 scale-75 top-2 z-10 origin-[0] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-2 peer-focus:scale-75 peer-focus:-translate-y-6 left-2">Message</label>
+            </div>
+          
+            <!-- Submit Button -->
+            <button class="flex items-center bg-blue-500 text-white gap-1 ms-2 mt-4 px-4 py-2 cursor-pointer font-semibold tracking-widest rounded-md hover:bg-blue-400 duration-300 hover:gap-2 hover:translate-x-3">
+              Send
+              <svg class="w-5 h-5" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" stroke-linejoin="round" stroke-linecap="round"></path>
+              </svg>
             </button>
-
-
           </form>
+          
         </div>
       </div>
+      
       
 
         
