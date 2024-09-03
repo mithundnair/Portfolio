@@ -13,4 +13,11 @@ function Vieww() {
         btn1.innerHTML = 'View on Github';
       }, 3000);
     }
+
+const menuToggle = document.getElementById('menu-toggle');
+const menu = document.getElementById('menu');
+  
+  menuToggle.addEventListener('click', () => {
+    menu.classList.toggle('hidden');  // Toggle the hidden class to show or hide the menu
+  });
   
